@@ -9,15 +9,50 @@
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="Jakub Cygan">
         <meta name="viewport" content="width=device-width, initial-scale=0">
-        <style>
+
+        <script type="text/javascript">
             
+        </script>
+
+        <style>
+        #zegar{
+            position:absolute;
+            right:1%;
+            top:2%;
+        }  
+        #left{
+            position: absolute;
+            top:50%;
+            left: 0px;
+            width:150px;
+        }
+        .button{
+            background-color: orange;
+        }
+        .button:hover{
+            background-color: orangered;
+            transition: 0.2s;
+        }
         </style>
 
     </head>
 
     <body>
         <section>
-            <h1>This is a Heading</h1>
+            
+            <section>
+                <section id="zegar">
+                    Zegar
+                </section>
+                <section id="left">
+                    <button class="button" onhover type="button">Zainteresowania</button>
+                    <button class="button" type="button">Gitara</button>
+                    <button class="button" type="button">Strona szkoły</button>
+                </section>
+                <h1>This is a Heading</h1>
+                <header>
+                    <img src="promocja.jpg" alt="Ja" width="200" height="50"></img>
+                </header>
             <p>Stronę przygotował Jakub Cygan</p>
             <p>Klasa 3Tig. Grupa 2 </p>
             <img src="Selfie.HEIC" alt="Ja" width="500" height="600"></img>
